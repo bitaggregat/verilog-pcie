@@ -199,7 +199,7 @@ set_property -dict {LOC AL9  } [get_ports pcie_refclk_0_n] ;# MGTREFCLK0N_225 (f
 #set_property -dict {LOC AK7 } [get_ports pcie_refclk_2_n] ;# MGTREFCLK1N_225 (for async x8 bifurcated lanes 0-7)
 #set_property -dict {LOC AE10 } [get_ports pcie_refclk_3_p] ;# MGTREFCLK1P_227 (for async x16 or x8 bifurcated lanes 8-16)
 #set_property -dict {LOC AE9 } [get_ports pcie_refclk_3_n] ;# MGTREFCLK1N_227 (for async x16 or x8 bifurcated lanes 8-16)
-set_property -dict {LOC AJ27 IOSTANDARD LVCMOS18 PULLUP true} [get_ports pcie_reset_n]
+set_property -dict {LOC AK18 IOSTANDARD LVCMOS18 PULLUP true} [get_ports pcie_reset_n]
 
 # 100 MHz MGT reference clock
 create_clock -period 10 -name pcie_mgt_refclk_0 [get_ports pcie_refclk_0_p]
