@@ -1,4 +1,4 @@
-# XDC constraints for the Xilinx Alveo U50 board
+# XDC constraints for the Xilinx Alveo U45N board
 # part: xcu26-vsva1365-2LV-e
 
 # General configuration
